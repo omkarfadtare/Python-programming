@@ -260,7 +260,7 @@
 - Strings in Python are indeed sequences of characters or words, encapsulated within either single quotes or double quotes.
 - Strings in Python are indeed sequences of characters or words, encapsulated within either single quotes or double quotes.
 
-### Features of string:
+### Features of string datatype:
 - Strings in Python are ___`immutable`___, meaning they cannot be changed after they are created.
 -  This immutability ensures that the contents of a string object remain constant throughout its lifetime, which helps prevent unintended modifications to the string's data.
 - Strings are sequences of characters, which means they support common sequence operations such as ___`indexing`___, ___`slicing`___, and ___`iterating`___ over characters.
@@ -285,7 +285,7 @@
 ### String concatnation:
 - String concatenation refers to the operation of joining or combining two or more strings into a single string.
 
-### String functions:
+### Some of the functions of string:
 | Function     | Syntax                                                           | Use                                                                                                                                    |
 |--------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | upper()      | str.upper()                                                      | Returns a copy of the string with all characters converted to uppercase                                                                |
@@ -319,3 +319,16 @@
 | isdecimal()  | str.isdecimal()                                                  | Checks if all characters in the string are decimal (base-10) digits and returns True or False                                          |
 | isdigit()    | str.isdigit()                                                    | Checks if all characters in the string are digits and returns True or False                                                            |
 | isnumeric()  | str.isnumeric()                                                  | Checks if all characters in the string are numeric characters and returns True or False                                                |
+
+
+## List:
+- Lists in Python are the collection of elements (Arrays) stored in a specific order.
+
+### Featres of list:
+- List items are separated by commas, allowing you to store multiple elements in a single list.
+- Lists are enclosed within square brackets [].
+- Lists maintain the ___`order`___ of elements as they are inserted, meaning the position of each element is preserved.
+- Lists are ___`mutable`___, meaning you can modify the elements of a list after it has been created. You can add, remove, or update elements without creating a new list.
+- Lists can contain elements of different data types, such as integers, floats, strings, or even other lists.
+
+### Some of the functions of list:
