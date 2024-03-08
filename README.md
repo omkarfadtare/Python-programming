@@ -45,8 +45,18 @@
   - An object’s reference moves out of scope.
   - An object is removed.
 
+## PyObject concept:
+- It is actually a C structure representing a generic Python object used in the CPython implementation.
+- In Python, var = 10 and temp = 10 will typically have the same id because integers between -5 and 256 are cached, whereas var = 10 and var = 20 will have different ids as they refer to different objects.
+- In Java, var = 10 and temp = 10 will indeed have different ids because they are primitive values, whereas var = 10 and var = 20 will have the same id if they are autoboxed to Integer objects with the same value.
 
-
+## Threading & Multiprocessing:
+- Both multiprocessing and threading in Python are ways to do multiple things at the same time, but they do it in different ways.
+  > ___`Threading`___ is a process of running multiple threads (smaller units of a program) concurrently, sharing the same memory space. Means they can easily communicate and share data with each other and are good for tasks that involve a lot of waiting or I/O operations.
+  
+  > ___`Multiprocessing`___ In multiprocessing, each task is done by a completely separate process. These processes don't share memory space, which means they can run completely independent and in their own memory space. Multiprocessing is great for tasks that can be split into independent parts and processed in parallel. Think of it like having multiple workers working on different tasks simultaneously: Imagine you have a big task that needs to be done, and you have a team of people. Instead of making one person do the whole task, you divide it into smaller parts and have each person work on their part at the same time.
+- If you have tasks that can be divided into independent parts and can benefit from parallel processing, use multiprocessing.
+- If you have tasks that involve I/O operations and can run concurrently, use threading. Correct these statments grammatically.
 
 
 
