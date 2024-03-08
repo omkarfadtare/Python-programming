@@ -120,3 +120,10 @@
   - There's potential for confusion between 'i' and visually similar characters like 'l' (lowercase L) or '1' (the number one) in source code.
 - Using 'j' helps avoid ambiguity and aligns with established practices in mathematics and programming, facilitating clearer and less error-prone code.
 
+### Typecasting in Python:
+- Typecasting in Python refers to the process of converting one data type into another.
+- When typecasting, it's important to remember the following:
+  - When converting strings to integer or float data types, conversion occurs only if the string represents a valid integer or float value.
+  - If the string contains alphabetic characters or other non-numeric characters, it cannot be converted to an integer or float.
+  - Decimal integers represented as strings will be converted to float type directly. To convert them to integer type, they first need to be converted to float type and then to integer type.
+  - It's not possible to directly convert complex numbers to integer or float data types. Complex numbers are a separate data type in Python and require their own operations for manipulation and conversion.
