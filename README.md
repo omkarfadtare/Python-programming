@@ -234,3 +234,8 @@
 - The associativity of operators refers to the order in which operators of the same precedence level are evaluated in an expression.
 - PEMDAS [Parentheses, Exponents, Multiplication, Division, Addition, Substraction]
 
+### Conditional statement in Python:
+- Conditional statements in Python are used to execute different blocks of code based on specified conditions.
+  > ___`if statement`___ executes a block of code if a specified condition is true.
+  
+  > ___if.. else statement___
