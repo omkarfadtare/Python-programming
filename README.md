@@ -142,6 +142,7 @@
 - Escape characters in Python are special characters preceded by a backslash in a string literal.
 - They are used to represent characters that are difficult or impossible to type directly into a string.
 - Below are some common escape characters in Python:
+
 | Escape character | Use                                                                                  |
 |------------------|--------------------------------------------------------------------------------------|
 | \n               | Represents a newline character, causing the text following it to start on a new line |
