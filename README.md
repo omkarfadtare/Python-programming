@@ -30,6 +30,7 @@
 - Variables in Python are just references to the actual object in memory. They are like names or labels that point to the actual object in memory; they do not store any value.
 - In Python, memory allocation is typically divided into Stack memory and Heap memory
   > ___`Stack memory`___ Stack memory is used for managing function calls and their local variables. It's like a temporary scratchpad that is automatically cleared when a function finishes its job. You can think of it as a small, fast-access storage area for short-lived data.
+  
   > ___`Heap memory`___ Heap memory is where Python stores more long-lasting and dynamically allocated data, like objects such as lists, dictionaries, and custom classes. It's a larger and more flexible storage space where data can persist beyond the scope of a single function.
 
 ## Garbage collection in Python:
