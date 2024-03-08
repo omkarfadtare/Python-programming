@@ -127,3 +127,15 @@
   - If the string contains alphabetic characters or other non-numeric characters, it cannot be converted to an integer or float.
   - Decimal integers represented as strings will be converted to float type directly. To convert them to integer type, they first need to be converted to float type and then to integer type.
   - It's not possible to directly convert complex numbers to integer or float data types. Complex numbers are a separate data type in Python and require their own operations for manipulation and conversion.
+
+### Printing methods of string in Python:
+- In Python, "printing methods" typically refer to the various functions and techniques used to display output to the console or other output streams.
+- There are basically two ways of printing strings in Python:
+  > ___`f'string method`___ writes the string directly to the standard output stream.
+  
+  > ___`Format string method`___ allows for more complex string formatting with placeholders.
+
+
+
+
+
