@@ -105,3 +105,11 @@
 - Predefined keywords in Python refer to words that are reserved for specific purposes within the Python language.
 - These keywords have predefined meanings and are used to define the syntax and structure of Python code.
 - These keywords cannot be used as identifiers such as variable names, function names, or class names within Python code.
+
+## Data types in Python:
+- There are mainly 5 datatypes in python
+  - ___`String (str)`___ ex. 'Python'
+  - ___`Integer (int)`___ ex. 10,2,3,4
+  - ___`FLoat (float)`___ ex. 10.2, 23.5
+  - ___`Complex number (complex)`___ ex. 2+3j, 10+4j [real +imaginary] can be poitive or negative
+  - ___`Boolean (bool)`___ ex. True, False
