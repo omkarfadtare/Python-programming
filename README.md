@@ -58,5 +58,32 @@
 - If you have tasks that can be divided into independent parts and can benefit from parallel processing, use multiprocessing.
 - If you have tasks that involve I/O operations and can run concurrently, use threading. Correct these statments grammatically.
 
+## Shortkeys in Python's Jupyter notebook:
+| Shortkeys   | Use                         |
+|-------------|-----------------------------|
+| ctrl+a      | select all                  |
+| ctrl+c      | copy                        |
+| ctrl+x      | cut                         |
+| ctrl+v      | paste                       |
+| esc+z       | undo                        |
+| esc+a       | redo                        |
+| ctrl+enter  | run cell                    |
+| shift+enter | run cell and enter below    |
+| esc+a       | insert cell above           |
+| esc+b       | insert cell below           |
+| esc+y       | change the cell to code     |
+| esc+m       | change the cell to markdown |
+| tab         | auto-complete code          |
+| shift+tab   | preview documentation       |
 
+## Indentation in Python:
+- Indentation is like the blank space at the start of a line in your code. It's used to organize your code visually and tell the computer which parts of the code belong together, like grouping lines in a function or loop.
 
+## Comments in Python:
+- Comments are lines in the code that are ignored by the compiler or interpreter during program execution.
+- They are used to provide explanations or context within the code for better understanding.
+- Professionally, comments are used to add the name of the project, the name of the developer, the starting date of the project, the purpose of the block of code, and any additional requirements.
+- There are two main types of comments:
+  > ___`Single-line comments`___
+  
+  > ___`Multi-line comments`___
