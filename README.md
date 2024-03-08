@@ -106,7 +106,7 @@
 - These keywords have predefined meanings and are used to define the syntax and structure of Python code.
 - These keywords cannot be used as identifiers such as variable names, function names, or class names within Python code.
 
-## Data types in Python:
+### Data types in Python:
 - There are mainly 6 datatypes in python
   - ___`String (str)`___ ex. 'Python'
   - ___`Integer (int)`___ ex. 10,2,3,4
