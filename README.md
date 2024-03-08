@@ -201,3 +201,36 @@
     - XOR
     - right shift (>>)
     - left shift (<<)
+
+> ___`AND operator:`___
+
+| X | Y | XY |
+|---|---|----|
+| 0 | 0 | 0  |
+| 0 | 1 | 0  |
+| 1 | 0 | 0  |
+| 1 | 1 | 1  |
+
+> ___`OR operator:`___
+
+| X | Y | XY |
+|---|---|----|
+| 0 | 0 | 1  |
+| 0 | 1 | 1  |
+| 1 | 0 | 1  |
+| 1 | 1 | 0  |
+
+
+> ___`XOR operator:`___
+
+| X | Y | XY |
+|---|---|----|
+| 0 | 0 | 0  |
+| 0 | 1 | 1  |
+| 1 | 0 | 1  |
+| 1 | 1 | 0  |
+
+### Associativity of operators rule:
+- The associativity of operators refers to the order in which operators of the same precedence level are evaluated in an expression.
+- PEMDAS [Parentheses, Exponents, Multiplication, Division, Addition, Substraction]
+
