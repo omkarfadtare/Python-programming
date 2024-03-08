@@ -238,4 +238,8 @@
 - Conditional statements in Python are used to execute different blocks of code based on specified conditions.
   > ___`if statement`___ executes a block of code if a specified condition is true.
   
-  > ___if.. else statement___
+  > ___`if.. else statement`___ executes one block of code if the condition is true and another block if the condition is false.
+
+  > ___`if.. elif.. else statement`___ allows for multiple conditions to be checked in sequence, executing the first block of code that evaluates to true. If none of the conditions are true, the else block is executed.
+
+
