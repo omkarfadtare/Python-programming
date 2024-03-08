@@ -107,9 +107,16 @@
 - These keywords cannot be used as identifiers such as variable names, function names, or class names within Python code.
 
 ## Data types in Python:
-- There are mainly 5 datatypes in python
+- There are mainly 6 datatypes in python
   - ___`String (str)`___ ex. 'Python'
   - ___`Integer (int)`___ ex. 10,2,3,4
   - ___`FLoat (float)`___ ex. 10.2, 23.5
   - ___`Complex number (complex)`___ ex. 2+3j, 10+4j [real +imaginary] can be poitive or negative
   - ___`Boolean (bool)`___ ex. True, False
+  - ___`Sequential (list[], tuple(), set{}, dictionary{key:value})`___
+- The letter 'j' instead of 'i' is conventionally used in the complex datatype to represent the imaginary part of a complex number. This convention is adopted for several reasons:
+  - In electrical engineering, the letter 'i' commonly denotes current.
+  - In computing, 'i' frequently serves as the indexing variable in loops.
+  - There's potential for confusion between 'i' and visually similar characters like 'l' (lowercase L) or '1' (the number one) in source code.
+- Using 'j' helps avoid ambiguity and aligns with established practices in mathematics and programming, facilitating clearer and less error-prone code.
+
