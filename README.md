@@ -38,10 +38,14 @@
 - The garbage collector (GC) operates in the background and is triggered when the reference count reaches zero.
 - The reference count rises when the following occurs:
   > An object is given a new name.
+  
   > An object is placed in a container, such as a tuple or a dictionary.
+  
 - The reference count lowers when the following occurs:
   > An object’s reference is reassigned.
+  
   > An object’s reference moves out of scope.
+  
   > An object is removed.
 
 
