@@ -269,7 +269,7 @@
 - String slicing in Python refers to the process of extracting a substring (a portion of a string) from a larger string by specifying a range of indices.
 
 ### Types of cases: 
-| Example          | Case                                                |
+| Example          | Type                                                |
 |------------------|-----------------------------------------------------|
 | machinelearning  | lower case, flat case, lazy case                    |
 | MACHINLEARNING   | upper case                                          |
@@ -281,3 +281,41 @@
 | machine-learning | kebab case, caterpillar case, spinal case, css case |
 | MACHINE-LEARNING | screaming kebab case                                |
 | Machine-Learning | HTTP header case                                    |
+
+### String concatnation:
+- String concatenation refers to the operation of joining or combining two or more strings into a single string.
+
+### String functions:
+| Function     | Syntax                                                           | Use                                                                                                                                    |
+|--------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| upper()      | str.upper()                                                      | Returns a copy of the string with all characters converted to uppercase                                                                |
+| lower()      | str.lower()                                                      | Returns a copy of the string with all characters converted to lowercase                                                                |
+| capitalize() | str.capitalize()                                                 | Converts the first character of the string to uppercase and the rest to lowercase                                                      |
+| title()      | str.title()                                                      | Converts the first character of each word in the string to uppercase and the rest to lowercase                                         |
+| casefold()   | str.casefold()                                                   | Similar to lowercasing but more aggressive. Converts the string to lowercase and removes all case distinctions present in the string   |
+| swapcase()   | str.swapcase()                                                   | Swaps the case of all characters in the string, converting uppercase characters to lowercase and vice versa                            |
+| lstrip()     | str.lstrip()                                                     | Removes leading whitespace characters (spaces, tabs, newlines) from the left side of the string                                        |
+| rstrip()     | str.rstrip()                                                     | Removes trailing whitespace characters (spaces, tabs, newlines) from the right side of the string                                      |
+| strip()      | str.strip()                                                      | Removes leading and trailing whitespace characters from the string                                                                     |
+| center()     | str.center(width, character)                                     | Returns a center aligned string by padding the original string with spaces on both sides to reach the specified width                  |
+| rjust()      | str.rjust(width, character)                                      | Returns a right-justified string by padding the original string with spaces on the left to reach the specified width                   |
+| ljust()      | str.ljust(width, character)                                      | Returns a left-justified string by padding the original string with spaces on the right to reach the specified width                   |
+| zfill()      | str.zfill(width)                                                 | Pads the string with zeros on the left until it reaches the specified width                                                            |
+| replace()    | str.replace('old value/char/word', 'new value/char/word', count) | Replaces occurrences of a specified substring with another substring in the string                                                     |
+| split()      | str.split(separator, maxsplit)                                   | Splits the string into a list of substrings based on a specified delimiter or separator (default is whitespace)                        |
+| join()       | separator.join(iterable)                                         | Concatenates elements of an iterable (such as a list) into a single string, using the string or separator as a delimiter               |
+| count()      | str.count('substring', start_index, end_index)                   | Returns the number of occurrences of a specified substring in the string                                                               |
+| expandtabs() | string.expandtabs(tabsize)                                       | Expands tab characters ('\t') in the string to spaces, using the specified tab size (default is 8)                                     |
+| index()      | str.index('substring',start_index, end_index)                    | Returns the index of the first occurrence of a specified substring in the string. Raises a ValueError if the substring is not found    |
+| find()       | str.find('substring',start_index, end_index)                     | Returns the index of the first occurrence of a specified substring in the string. Returns -1 if the substring is not found             |
+| endswith()   | str.index(substring, start_index, end_index)                     | Checks if the string ends with a specified suffix and returns True or False                                                            |
+| startswith() | str.index(substring, start_index, end_index)                     | Checks if the string starts with a specified prefix and returns True or False                                                          |
+| isspace()    | str.isspace()                                                    | Checks if all characters in the string are whitespace characters and returns True or False                                             |
+| istitle()    | str.istitle()                                                    | Checks if the string is titlecased (each word starts with an uppercase letter followed by lowercase letters) and returns True or False |
+| isupper()    | str.isupper()                                                    | Checks if all characters in the string are uppercase letters and returns True or False                                                 |
+| islower()    | str.islower()                                                    | Checks if all characters in the string are lowercase letters and returns True or False                                                 |
+| isalnum()    | str.isalnum()                                                    | Checks if all characters in the string are alphanumeric (letters or numbers) and returns True or False                                 |
+| isalpha()    | str.isalpha()                                                    | Checks if all characters in the string are alphabetic (letters) and returns True or False                                              |
+| isdecimal()  | str.isdecimal()                                                  | Checks if all characters in the string are decimal (base-10) digits and returns True or False                                          |
+| isdigit()    | str.isdigit()                                                    | Checks if all characters in the string are digits and returns True or False                                                            |
+| isnumeric()  | str.isnumeric()                                                  | Checks if all characters in the string are numeric characters and returns True or False                                                |
