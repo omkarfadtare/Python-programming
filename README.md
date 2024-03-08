@@ -6,14 +6,14 @@
 - It is ___`Dynamically typed`___ language, which means the type for a variable is decided at the run time only, we do not have to specify the type of a variable.
 - ___`Interpreter`___ is a layer of software logic between your code and the computer hardware on your machine.
 
-> Advantages/Features of Python programming language:
+### Advantages/Features of Python programming language:
 - It is easy to code, high level programming language, uses clear and readable syntax
 - It is free & open source programming language, with huge global community
 - It is portable programming language (works on different platforms and operating systems)
 - It has extensive support libraries which provide modules suited for different tasks like automation, web scrapping, text processing, image processing, machine learning, data analytics etc.
 - It supports GUI (Graphical user interface) applications and has framework for web
 
-> Disadvanategs of Python programming language: 
+### Disadvanategs of Python programming language: 
 - It has poor memory efficiency (Python needs a lot of memory space, this can be a disadvantage when we want to develop a memory optimised applications)
 - It has a slow Speed (as Python code executes line by line and due to poor memory efficiency, the execution speed becomes slow)
 - It is weak in mobile computing (due to its high memory usage and slow speed, it is generally not used for frontend programming or mobile app development. It is used for backdend programming)
@@ -45,7 +45,7 @@
   - An object’s reference moves out of scope.
   - An object is removed.
 
-### PyObject concept:
+### PyObject concept in Python:
 - It is actually a C structure representing a generic Python object used in the CPython implementation.
 - In Python, var = 10 and temp = 10 will typically have the same id because integers between -5 and 256 are cached, whereas var = 10 and var = 20 will have different ids as they refer to different objects.
 - In Java, var = 10 and temp = 10 will indeed have different ids because they are primitive values, whereas var = 10 and var = 20 will have the same id if they are autoboxed to Integer objects with the same value.
@@ -79,6 +79,9 @@
 ### Indentation in Python:
 - Indentation is like the blank space at the start of a line in your code. It's used to organize your code visually and tell the computer which parts of the code belong together, like grouping lines in a function or loop.
 
+### Indexing in Python:
+- Indexing in Python refers to the process of accessing individual elements within a data structure, such as a string, list, tuple, or other sequence types, using their position or index.
+
 ### Comments in Python:
 - Comments are lines in the code that are ignored by the compiler or interpreter during program execution.
 - They are used to provide explanations or context within the code for better understanding.
@@ -87,6 +90,29 @@
   > ___`Single-line comments`___
   
   > ___`Multi-line comments`___
+
+### Printing methods of string in Python:
+- In Python, "printing methods" typically refer to the various functions and techniques used to display output to the console or other output streams.
+- There are basically two ways of printing strings in Python:
+  > ___`f'string method`___ writes the string directly to the standard output stream.
+  
+  > ___`Format string method`___ allows for more complex string formatting with placeholders.
+- In Python, by default, the ___`print()`___ function ends with a newline character, causing the cursor to move to the next line after printing.
+- To override this behavior and keep the cursor at the end of the printed output, you can use the ___`end=' '`___ parameter in the print() function.
+  
+### Raw string and Escape characters in Python:
+- In Python, a raw string is a string literal prefixed with an ___`r`___. This notation tells Python to interpret the string exactly as it is, without any special processing for escape sequences.
+- Escape characters in Python are special characters preceded by a backslash in a string literal.
+- They are used to represent characters that are difficult or impossible to type directly into a string.
+- Below are some common escape characters in Python:
+
+| Escape character | Use                                                                                  |
+|------------------|--------------------------------------------------------------------------------------|
+| \n               | Represents a newline character, causing the text following it to start on a new line |
+| \t               | Represents a tab character, causing the text following it to be indented             |
+| \\               | Represents a single backslash character                                              |
+| \'               | Represents a single quote character                                                  |
+| \"               | Represents a double quote character                                                  |
 
 ### Variables in Python:
 - Variables in Python are entities that store data. When naming variables, it's important to follow these guidelines:
@@ -120,6 +146,9 @@
   - There's potential for confusion between 'i' and visually similar characters like 'l' (lowercase L) or '1' (the number one) in source code.
 - Using 'j' helps avoid ambiguity and aligns with established practices in mathematics and programming, facilitating clearer and less error-prone code.
 
+### Duck typing in Python:
+- Duck typing in Python is a programming concept where the type or class of an object is determined by its behavior rather than its explicit type declaration.
+
 ### Typecasting in Python:
 - Typecasting in Python refers to the process of converting one data type into another.
 - When typecasting, it's important to remember the following:
@@ -127,28 +156,3 @@
   - If the string contains alphabetic characters or other non-numeric characters, it cannot be converted to an integer or float.
   - Decimal integers represented as strings will be converted to float type directly. To convert them to integer type, they first need to be converted to float type and then to integer type.
   - It's not possible to directly convert complex numbers to integer or float data types. Complex numbers are a separate data type in Python and require their own operations for manipulation and conversion.
-
-### Printing methods of string in Python:
-- In Python, "printing methods" typically refer to the various functions and techniques used to display output to the console or other output streams.
-- There are basically two ways of printing strings in Python:
-  > ___`f'string method`___ writes the string directly to the standard output stream.
-  
-  > ___`Format string method`___ allows for more complex string formatting with placeholders.
-- In Python, by default, the ___`print()`___ function ends with a newline character, causing the cursor to move to the next line after printing.
-- To override this behavior and keep the cursor at the end of the printed output, you can use the ___`end=' '`___ parameter in the print() function.
-  
-### Raw string and Escape characters in Python:
-- In Python, a raw string is a string literal prefixed with an ___`r`___. This notation tells Python to interpret the string exactly as it is, without any special processing for escape sequences.
-- Escape characters in Python are special characters preceded by a backslash in a string literal.
-- They are used to represent characters that are difficult or impossible to type directly into a string.
-- Below are some common escape characters in Python:
-
-| Escape character | Use                                                                                  |
-|------------------|--------------------------------------------------------------------------------------|
-| \n               | Represents a newline character, causing the text following it to start on a new line |
-| \t               | Represents a tab character, causing the text following it to be indented             |
-| \\               | Represents a single backslash character                                              |
-| \'               | Represents a single quote character                                                  |
-| \"               | Represents a double quote character                                                  |
-
-
