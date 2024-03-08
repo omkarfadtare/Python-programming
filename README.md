@@ -28,7 +28,7 @@
 - Everything in Python, such as classes, functions, and even simple data types like integers, floats, and strings, are objects.
 - When we define an integer in Python, CPython internally creates an object of type integer. These objects are stored in Heap memory.
 - Variables in Python are just references to the actual object in memory. They are like names or labels that point to the actual object in memory; they do not store any value.
-- In Python, memory allocation is typically divided into Stack memory and Heap memory
+- In Python, memory allocation is typically divided into two types:
   > ___`Stack memory`___ Stack memory is used for managing function calls and their local variables. It's like a temporary scratchpad that is automatically cleared when a function finishes its job. You can think of it as a small, fast-access storage area for short-lived data.
   
   > ___`Heap memory`___ Heap memory is where Python stores more long-lasting and dynamically allocated data, like objects such as lists, dictionaries, and custom classes. It's a larger and more flexible storage space where data can persist beyond the scope of a single function.
@@ -134,8 +134,20 @@
   > ___`f'string method`___ writes the string directly to the standard output stream.
   
   > ___`Format string method`___ allows for more complex string formatting with placeholders.
-
-
-
+- In Python, by default, the ___`print()`___ function ends with a newline character, causing the cursor to move to the next line after printing.
+- To override this behavior and keep the cursor at the end of the printed output, you can use the ___`end=' '`___ parameter in the print() function.
+  
+### Raw string and Escape characters in Python:
+- In Python, a raw string is a string literal prefixed with an ___`r`___. This notation tells Python to interpret the string exactly as it is, without any special processing for escape sequences.
+- Escape characters in Python are special characters preceded by a backslash in a string literal.
+- They are used to represent characters that are difficult or impossible to type directly into a string.
+- Below are some common escape characters in Python:
+| Escape character | Use                                                                                  |
+|------------------|--------------------------------------------------------------------------------------|
+| \n               | Represents a newline character, causing the text following it to start on a new line |
+| \t               | Represents a tab character, causing the text following it to be indented             |
+| \\               | Represents a single backslash character                                              |
+| \'               | Represents a single quote character                                                  |
+| \"               | Represents a double quote character                                                  |
 
 
