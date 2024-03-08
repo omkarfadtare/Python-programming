@@ -242,4 +242,9 @@
 
   > ___`if.. elif.. else statement`___ allows for multiple conditions to be checked in sequence, executing the first block of code that evaluates to true. If none of the conditions are true, the else block is executed.
 
+### Loops in Python:
+- Loops in Python are used to execute a block of code repeatedly as long as a specified condition is true.
+- Python supports two main types of loops:
+  > ___`foor loop`___ It is used to iterate over a sequence (such as a list, tuple, string, or range) or any iterable object.
 
+  > ___`while loop`___ It executes a block of code as long as a specified condition is true.
