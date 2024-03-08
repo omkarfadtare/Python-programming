@@ -156,3 +156,48 @@
   - If the string contains alphabetic characters or other non-numeric characters, it cannot be converted to an integer or float.
   - Decimal integers represented as strings will be converted to float type directly. To convert them to integer type, they first need to be converted to float type and then to integer type.
   - It's not possible to directly convert complex numbers to integer or float data types. Complex numbers are a separate data type in Python and require their own operations for manipulation and conversion.
+
+### Operators in Python:
+- Operators in Python are special symbols or keywords used to perform various operations such as arithmetic, comparison, logical, assignment, and more.
+- These operators manipulate the operands, which are the values or variables that the operator acts upon. (2+3=5; here 2 and 3 are oprands and + is an operator)
+- There are mainly seven types of operators:
+  - ___Arithmatic operators___
+    - Addition (+)
+    - `Substraction (-)
+    - Multiplication (*)
+    - Division (/)
+    - Exponentiation (**)
+    - Floor division (//)
+    - Modulus (%)
+  - ___`Assignment operators`___
+    - Assign (=)
+    - Add and assign (+=)
+    - Substract and assign (-=)
+    - Multiply and assign (*=)
+    - Divide and assign (/=)
+    - Modulus and assign (%=)
+    - Exponentiation and assign (**=)
+    - Floor divide and assign (//=)
+  - ___`Comparison operators`___
+    - Greater than (>)
+    - Less than (<)
+    - Equal to (==)
+    - Not equal to (!=)
+    - Greater than or equal to (>=)
+    - Less than or equal to (<=)
+  - ___`Logical operators`___
+    - and (both conditions must be True/False)
+    - or (any of the conditions must be True/False)
+    - not (used as if not)
+  - ___`Membership operators`___
+    - in (returns true if value is present)
+    - not in (returns true if value is not present)
+  - ___`Identity operators`___
+    - is (returns True if the first value is the same as the second)
+    - is not (returns True if the first value is not the same as the second)
+  - ___`Bitwise operators`___
+    - AND
+    - OR
+    - XOR
+    - right shift (>>)
+    - left shift (<<)
