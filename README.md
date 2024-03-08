@@ -248,3 +248,36 @@
   > ___`foor loop`___ It is used to iterate over a sequence (such as a list, tuple, string, or range) or any iterable object.
 
   > ___`while loop`___ It executes a block of code as long as a specified condition is true.
+  
+  > ___`nested loop`___ in Python is a loop inside another loop. This means that one loop is placed inside the body of another loop. Nested loops are often used when you need to perform repetitive tasks within repetitive tasks.
+
+### Control statements:
+- ___`break`___ It terminates the loop prematurely when it meets a certain condition.
+- ___`continue`___ statement skips the rest of the code inside the loop for the current iteration and continues with the next iteration.
+- ___`pass`___ statement is a null operation. It is used as a placeholder where syntactically required but no action is needed or desired.
+
+## String:
+- Strings in Python are indeed sequences of characters or words, encapsulated within either single quotes or double quotes.
+- Strings in Python are indeed sequences of characters or words, encapsulated within either single quotes or double quotes.
+
+### Features of string:
+- Strings in Python are ___`immutable`___, meaning they cannot be changed after they are created.
+-  This immutability ensures that the contents of a string object remain constant throughout its lifetime, which helps prevent unintended modifications to the string's data.
+- Strings are sequences of characters, which means they support common sequence operations such as ___`indexing`___, ___`slicing`___, and ___`iterating`___ over characters.
+
+### String slicing:
+- String slicing in Python refers to the process of extracting a substring (a portion of a string) from a larger string by specifying a range of indices.
+
+### Types of cases: 
+| Example          | Case                                                |
+|------------------|-----------------------------------------------------|
+| machinelearning  | lower case, flat case, lazy case                    |
+| MACHINLEARNING   | upper case                                          |
+| machineLearning  | lower camel case                                    |
+| MachineLearning  | upper camel case, pascal case                       |
+| machine_learning | snake case                                          |
+| Machine_Learning | camel snake case                                    |
+| MACHINE_LEARNING | screaming snake case                                |
+| machine-learning | kebab case, caterpillar case, spinal case, css case |
+| MACHINE-LEARNING | screaming kebab case                                |
+| Machine-Learning | HTTP header case                                    |
