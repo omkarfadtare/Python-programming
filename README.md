@@ -332,3 +332,47 @@
 - Lists can contain elements of different data types, such as integers, floats, strings, or even other lists.
 
 ### Some of the functions of list:
+| Function        | Syntax                                   | Functionality                                                                                                                                            |
+|-----------------|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| len()           | len(lst)                                 | Returns the number of elements in the list                                                                                                               |
+| type()          | type(lst)                                | Returns the type of the object                                                                                                                           |
+| .index()        | lst.index(value, start_index, end_index) | Returns the index of the first occurrence of the specified value in the list.                                                                            |
+| count()         | lst.count(value)                         | Returns the number of times the specified value appears in the list                                                                                      |
+| sum()           | sum(lst)                                 | Returns the sum of all elements in the list                                                                                                              |
+| min()           | min(lst)                                 | Returns the smallest element in the                                                                                                                      |
+| max()           | msx(lst)                                 | Returns the largest element in the                                                                                                                       |
+| append()        | lst.append(element)                      | Adds the specified element to the end of the list                                                                                                        |
+| extend()        | lst.extend(iterable)                     | Adds the elements of the specified iterable (such as another list) to the end of the list                                                                |
+| insert()        | lst.insert(index, element)               | Inserts the specified element at the specified index in the list                                                                                         |
+| remove()        | lst.remove(element)                      | Removes the first occurrence of the specified element from the list                                                                                      |
+| pop()           | lst.pop(index)                           | Removes and returns the element at the specified index from the list. If no index is specified, it removes and returns the last element                  |
+| clear()         | lst.clear()                              | Removes all elements from the list, leaving it empty                                                                                                     |
+| sort()          | lst.sort(reverse=False)                  | By default sorts the elements of the list in ascending order, you can customize the sorting behavior using reverse parameter to sort in descending order |
+| reverse()       | lst.reverse()                            | Reverses the order of the elements in the list                                                                                                           |
+| copy()          | lst.copy()                               | Returns a shallow copy of the list. Changes made to the original list won't affect the copied list, and vice versa                                       |
+| copy.deepcopy() | copy.deepcopy(old_list)                  |                                                                                                                                                          |
+| sorted()        |                                          |                                                                                                                                                          |
+| reversed()      |                                          |                                                                                                                                                          |
+
+## Tuple:
+
+
+## Set
+
+
+## Dictionary:
+
+
+## 
+- Lambda functions in Python are indeed small, anonymous functions that can have any number of input arguments but only one expression. They are defined using the ___`lambda`___ keyword.
+- Lambda functions are particularly useful when you need a simple function for a short period, and it's not worth defining a full-fledged function using def. They provide a compact way to write functions inline without the need for a formal function definition.
+- Lambda functions are commonly used in conjunction with higher-order functions like map(), filter(), and reduce(). These higher-order functions accept other functions as arguments, and lambda functions are often used for this purpose because they can be defined quickly and don't require a separate named function.
+
+## Object oriented programming:
+- Object-oriented programming (OOPs) is a way of organizing and designing code in a more structured and modular manner. In simple words, OOPs is a way of writing code in a structured manner, allowing us to avoid repetitive code by defining reusable templates (classs).
+- OOPs consists of classes and objects. ___`Class`___ is like a blueprint or template of an object, that defines the structure and behavior of objects. Inside a class, we define methods (actions) and attributes (data). An ___`Object`___ is an instance of class, which follows the structure and behavior defined by that class.
+- In simple terms, classes define the rules, and objects follow those rules by having attributes and methods. It is recommended to use PascalCase while defining the class name.
+- In Python, both methods and functions are blocks of reusable code that perform specific tasks.
+  > ___`Method`___ is a function that is associated with an object or a class. Methods are called using dot notation (___`obj_name.method_name()`___). Methods can access and modify the attributes of the object they are called on.
+  
+  > ___`Function`___ is a block of code that performs a specific task. Functions can be defined anywhere in the code and are independent of any class or object. Functions are called by their name followed by parentheses (___`function_name()`___). Functions take input arguments and return a result.
